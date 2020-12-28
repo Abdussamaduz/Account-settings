@@ -1,0 +1,38 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+body {
+	transition: 1s all ease;
+	height: 790px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main
+{
+	width: 500px;
+	height: 665px;
+	background-color: rgba(253, 236, 81,1);
+}
+
+.main-title
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 10px;
+}
+
+.main-txt
+{
+	font-family: 'roboto', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	margin-right: 95px;
+}
