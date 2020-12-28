@@ -105,3 +105,40 @@ body {
 	font-weight: 500;
 	outline: none;
 }
+
+
+.enter-user
+{
+	width: 400px;
+	padding: 10px 0;
+	background-color: none;
+	border-style: none;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	font-family: 'roboto', sans-serif;
+	color: rgba(0,0,0,0.8);
+	font-size: 13px;
+	font-weight: 500;
+	outline: none;
+}
+
+.first-last-name
+{
+	display: flex;
+}
+
+.user
+{
+	font-family: 'roboto', sans-serif;
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.4);
+	font-weight: bolder;
+	margin-right: 100px;
+	font-weight: 900;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.box-forum
+{
+	display: flex;
+}
