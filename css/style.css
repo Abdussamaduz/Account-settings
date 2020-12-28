@@ -142,3 +142,45 @@ body {
 {
 	display: flex;
 }
+
+
+.bio
+{
+	width: 400px;
+	padding: 40px 0;	
+	background-color: none;
+	border-style: none;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	font-family: 'roboto', sans-serif;
+	color: rgba(0,0,0,0.4);
+	font-size: 13px;
+	font-weight: 500;
+	outline: none;
+}
+
+.main-buttons
+{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 60px;
+	padding-bottom: 20px;
+}
+
+.main-buttons .cancel
+{
+	background: none;
+	border-style: none;
+	font-family: 'roboto', sans-serif;
+	color: rgba(0,0,0,0.45);
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 5px 20px;
+	outline: none;
+}
+
+.main-buttons .cancel:hover
+{
+	background-color: rgba(219, 205, 70,1);
+	transition: 0.3s;
+}
